@@ -11,6 +11,9 @@ Nome: Gustavo Ibara                    RA: 10389067
 
 Incremente o exemplo acima para representar a troca de informações de contexto entre a thread e o processo pai.
 
+# Logica Pensada
+
+Para realizar o exercício, modificamos a função threadFunction para receber um argumento e imprimir o valor desse argumento antes de sair. Além disso, na função main, criamos uma variável chamada value. O valor que atribuímos a value é apenas um exemplo, e poderíamos usar qualquer valor que desejássemos. O endereço dessa variável value é então passado como argumento para a função clone. Com isso, a função threadFunction tem acesso a essa variável value e pode imprimir seu valor.
 
 # Print da Execução
 
